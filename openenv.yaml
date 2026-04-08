@@ -1,0 +1,19 @@
+name: ai-work-assistant-env
+version: 1.0.0
+description: "AI Workplace Automation Environment for evaluating agents on common office tasks."
+author: "Antigravity Senior Backend Engineer"
+entry_point: "main.py"
+tasks:
+  - id: email_triage
+    name: "Email Triage"
+    difficulty: "Easy"
+  - id: data_cleaning
+    name: "Data Cleaning"
+    difficulty: "Medium"
+  - id: code_review
+    name: "Code Review"
+    difficulty: "Hard"
+reward_config:
+  correct: 1.0
+  wrong: -0.2
+  penalty_per_repeat: -0.1

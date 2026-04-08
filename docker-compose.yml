@@ -1,0 +1,9 @@
+services:
+  work-env:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    # Override command if you want to run inference inside docker
+    # command: python inference.py
