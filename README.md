@@ -1,3 +1,12 @@
+---
+title: AI Work Assistant Env
+emoji: 💼
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+pinned: false
+---
+
 # AI Work Assistant Environment (AI-Work-Assistant-Env)
 
 ## 🎯 Project Overview
